@@ -1,0 +1,113 @@
+{
+  "controls": [
+    {
+      "name": "Pause",
+      "label": "only close open positions",
+      "value": "false",
+      "type": "checkbox",
+      "validators": {}
+    },
+    {
+      "name": "Enabled",
+      "label": "Enabled",
+      "value": "true",
+      "hidden": "true",
+      "type": "checkbox",
+      "validators": {}
+    },
+    {
+      "name": "Exchange",
+      "label": "exchange",
+      "value": "<unkown>",
+      "hidden": "true",
+      "type": "textarea",
+      "validators": {}
+    },
+    {
+      "name": "Strategy",
+      "label": "strategy",
+      "value": "dca",
+      "hidden": "true",
+      "type": "textarea",
+      "validators": {}
+    },
+    {
+      "name": "FREQ",
+      "label": "Poll Frequency",
+      "value": "5m",
+      "hidden": "true",
+      "type": "select",
+      "validators": {
+      },
+      "options": {
+        "5m": "5m"
+      }
+    },
+    {
+      "name": "A",
+      "label": "Asset",
+      "value": "BTC",
+      "type": "text",
+      "validators": {
+        "required": true,
+        "minLength": 10
+      }
+    },
+    {
+      "name": "B",
+      "label": "Base",
+      "value": "USDT",
+      "type": "text",
+      "validators": {}
+    },
+    {
+      "name": "$",
+      "label": "Amount per trade",
+      "value": 10.0,
+      "type": "number",
+      "validators": {}
+    },
+    {
+      "name": "NextBuyPrice",
+      "label": "Next Buy @",
+      "value": 50000.0,
+      "type": "number",
+      "validators": {}
+    },
+    {
+      "name": "UseCandleStick",
+      "label": "Use Candle for Entry",
+      "value": "true",
+      "type": "checkbox",
+      "validators": {}
+    },
+    {
+      "name": "PriceDown",
+      "label": "Buy when Price Falls %",
+      "value": 0.05,
+      "type": "number",
+      "validators": {}
+    },
+    {
+      "name": "$Times",
+      "label": "Increase ($ * times) ",
+      "value": 1.02,
+      "type": "number",
+      "validators": {}
+    },
+    {
+      "name": "Profit",
+      "label": "Profit",
+      "value": 0.05,
+      "type": "number",
+      "validators": {}
+    },
+    {
+      "name": "IndividualTransaction",
+      "label": "Exit at transaction level",
+      "value": "true",
+      "type": "checkbox",
+      "validators": {}
+    }
+  ]
+}

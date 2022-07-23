@@ -1,0 +1,52 @@
+{
+  "controls": [
+    {
+      "name": "person",
+      "label": "Person",
+      "value": "SL",
+      "type": "select",
+      "validators": {
+      },
+      "options": {
+        "sl": "SL",
+        "liz": "Liz"
+      }
+    },
+    {
+      "name": "date",
+      "label": "Date",
+      "value": "",
+      "type": "textarea",
+      "validators": {}
+    },
+    {
+      "name": "asset",
+      "label": "Asset",
+      "value": "SHIBUSDT",
+      "type": "text",
+      "validators": {
+      }
+    },
+    {
+      "name": "price",
+      "label": "Price",
+      "value": 0,
+      "type": "number",
+      "validators": {}
+    },
+    {
+      "name": "targetPrice",
+      "label": "Target Price",
+      "value": 0,
+      "type": "number",
+      "validators": {}
+    },
+    {
+      "name": "notes",
+      "label": "notes",
+      "type": "textarea",
+      "validators": {
+      }
+    }
+  ]
+}

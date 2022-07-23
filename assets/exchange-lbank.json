@@ -1,0 +1,14 @@
+{
+  "controls": [
+    {
+      "name": "API_KEY",
+      "label": "Api Key",
+      "type": "textarea"
+    },
+    {
+      "name": "SECRET_KEY",
+      "label": "Secret Key",
+      "type": "textarea"
+    }
+  ]
+}

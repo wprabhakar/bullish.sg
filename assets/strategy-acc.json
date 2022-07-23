@@ -1,0 +1,106 @@
+{
+  "controls": [
+    {
+      "name": "Pause",
+      "label": "only close open positions",
+      "value": "false",
+      "type": "checkbox",
+      "validators": {}
+    },
+    {
+      "name": "Enabled",
+      "label": "Enabled",
+      "value": "true",
+      "hidden": "true",
+      "type": "checkbox",
+      "validators": {}
+    },
+    {
+      "name": "Exchange",
+      "label": "exchange",
+      "value": "<unkown>",
+      "hidden": "true",
+      "type": "textarea",
+      "validators": {}
+    },
+    {
+      "name": "Strategy",
+      "label": "strategy",
+      "value": "acc",
+      "hidden": "true",
+      "type": "textarea",
+      "validators": {}
+    },
+    {
+      "name": "FREQ",
+      "label": "Poll Frequency",
+      "value": "5m",
+      "hidden": "true",
+      "type": "select",
+      "validators": {
+      },
+      "options": {
+        "5m": "5m"
+      }
+    },
+    {
+      "name": "A",
+      "label": "Asset",
+      "value": "SHIB",
+      "type": "text",
+      "validators": {
+        "required": true,
+        "minLength": 10
+      }
+    },
+    {
+      "name": "B",
+      "label": "Base",
+      "value": "USDT",
+      "type": "text",
+      "validators": {}
+    },
+    {
+      "name": "$",
+      "label": "Amount per trade",
+      "value": 25,
+      "type": "number",
+      "validators": {}
+    },
+    {
+      "name": "MaxBuyPrice",
+      "label": "Max Buy Price",
+      "value": 0.00002,
+      "type": "number",
+      "validators": {}
+    },
+    {
+      "name": "AdditionalBuy",
+      "label": "Additional Buy",
+      "value": 0.03,
+      "type": "number",
+      "validators": {}
+    },
+    {
+      "name": "TakeProfit",
+      "label": "Profit Target",
+      "value": 0.05,
+      "type": "number",
+      "validators": {}
+    },
+    {
+      "name": "accummulateTarget",
+      "label": "Accummulate Target",
+      "value": 0.00001,
+      "type": "number",
+      "validators": {}
+    },
+    {
+      "name": "ExitPrice",
+      "label": "Exit Price - when acc target is met",
+      "value": 0.00008,
+      "type": "number",
+      "validators": {}
+    }
+  ]
+}
