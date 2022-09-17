@@ -3,11 +3,12 @@
       {
         "name": "Exchange",
         "label": "Exchange",
-        "value": "kucoin",
+        "value": "bitrue",
         "type": "select",
         "validators": {
         },
         "options": {
+          "bitrue": "Bitrue",
           "kucoin": "KuCoin",
           "aax": "AAX",
           "lbank": "Lbank",
@@ -17,7 +18,7 @@
       {
         "name": "Strategy",
         "label": "Strategy",
-        "value": "dca",
+        "value": "blsh",
         "type": "select",
         "validators": {
         },
