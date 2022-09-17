@@ -1,20 +1,20 @@
 {
     "controls": [
-      {
-        "name": "Exchange",
-        "label": "Exchange",
-        "value": "bitrue",
-        "type": "select",
-        "validators": {
-        },
-        "options": {
-          "bitrue": "Bitrue",
-          "kucoin": "KuCoin",
-          "aax": "AAX",
-          "lbank": "Lbank",
-          "bkex": "Bkex"
-        }
-      },
+      // {
+      //   "name": "Exchange",
+      //   "label": "Exchange",
+      //   "value": "bitrue",
+      //   "type": "select",
+      //   "validators": {
+      //   },
+      //   "options": {
+      //     "bitrue": "bitrue",
+      //     "kucoin": "kuCoin",
+      //     "aax": "aax",
+      //     "lbank": "lbank",
+      //     "bkex": "bkex"
+      //   }
+      // },
       {
         "name": "Strategy",
         "label": "Strategy",
