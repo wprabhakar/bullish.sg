@@ -1,0 +1,83 @@
+{
+  "controls": [
+    {
+      "name": "PARAMS.ENABLED",
+      "label": "ENABLED",
+      "value": true,
+      "hidden": "true",
+      "type": "checkbox",
+      "validators": {}
+    },
+    {
+      "name": "PARAMS.A",
+      "label": "Asset",
+      "value": "SHIB",
+      "type": "text",
+      "readonly": "true",
+      "validators": {
+        "required": true,
+        "minLength": 10
+      }
+    },
+    {
+      "name": "PARAMS.B",
+      "label": "Base",
+      "value": "USDT",
+      "type": "text",
+      "readonly": "true",
+      "validators": {}
+    },
+    {
+      "name": "PARAMS.TEST",
+      "label": "TEST",
+      "value": true,
+      "type": "checkbox",
+      "validators": {}
+    },
+    {
+      "name": "PARAMS.PAUSE",
+      "label": "Close Open Positions Only",
+      "value": false,
+      "type": "checkbox",
+      "validators": {}
+    },
+    {
+      "name": "PARAMS.EX1",
+      "label": "EX1",
+      "value": "<unkown>",
+      "hidden": "true",
+      "type": "textarea",
+      "validators": {}
+    },
+    {
+      "name": "PARAMS.EX2",
+      "label": "EX2",
+      "value": "<unkown>",
+      "hidden": "true",
+      "type": "textarea",
+      "validators": {}
+    },
+    {
+      "name": "PARAMS.SNAME",
+      "label": "Strategy",
+      "value": "arby",
+      "hidden": "true",
+      "type": "textarea",
+      "validators": {}
+    },
+    {
+      "name": "PARAMS.INVEST$",
+      "label": "Minimum Value",
+      "value": 50.0,
+      "type": "number",
+      "validators": {}
+    },   
+    {
+      "name": "PARAMS.MIN_PROFIT_PCT",
+      "label": "Min Profit PCT",
+      "value": 0.05,
+      "type": "number",
+      "validators": {}
+    }
+  ]
+}

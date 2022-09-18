@@ -60,22 +60,22 @@
 
     {
       "name": "PARAMS.INVEST$",
-      "label": "Amount per trade",
+      "label": "min qty in BASE units",
       "value": 100.0,
       "type": "number",
       "validators": {}
     },   
     {
-      "name": "PARAMS.MAX_BUY_PRICE",
-      "label": "Max Buy Price",
-      "value": 0.0000017,
+      "name": "PARAMS.ORDER_PLACEMENT_TRESHOLD",
+      "label": "Order place treshold PCT",
+      "value": 0.01,
       "type": "number",
       "validators": {}
     },
     {
-      "name": "PARAMS.MIN_SELL_PRICE",
-      "label": "Min Sell Price",
-      "value": 0.01,
+      "name": "PARAMS.MAX_BUY_PRICE",
+      "label": "Max Buy Price",
+      "value": 0.0000017,
       "type": "number",
       "validators": {}
     },
@@ -115,22 +115,8 @@
       "validators": {}
     },
     {
-      "name": "PARAMS.ORDER_PLACEMENT_TRESHOLD",
-      "label": "Place Order PCT to Price",
-      "value": 0.01,
-      "type": "number",
-      "validators": {}
-    },
-    {
       "name": "PARAMS.BUY_EXPIRY_MINUTES",
       "label": "Expire Buy (minutes)",
-      "value": 15,
-      "type": "number",
-      "validators": {}
-    },
-    {
-      "name": "PARAMS.SELL_EXPIRY_MINUTES",
-      "label": "Expire Sell (minutes)",
       "value": 15,
       "type": "number",
       "validators": {}
@@ -140,6 +126,20 @@
       "label": "Close All",
       "value": true,
       "type": "checkbox",
+      "validators": {}
+    },
+    {
+      "name": "PARAMS.MIN_SELL_PRICE",
+      "label": "Closing Min Sell Price",
+      "value": 0.01,
+      "type": "number",
+      "validators": {}
+    },
+    {
+      "name": "PARAMS.SELL_EXPIRY_MINUTES",
+      "label": "Expire Sell (minutes)",
+      "value": 15,
+      "type": "number",
       "validators": {}
     }
   ]
