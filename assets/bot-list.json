@@ -2,7 +2,7 @@
   {
       "e": "kucoin",
       "s":  "SHIB/USDT",
-      "SNAME": "accummulate",
+      "strategy": "accummulate",
       "maxPrice": "0.000025",
       "invest": "10",
        "ap": 1.222,
@@ -12,7 +12,7 @@
   {
     "e": "aax",
     "s":  "SHIB/USDT",
-    "SNAME": "accummulate",
+    "strategy": "accummulate",
     "maxPrice": "0.000025",
     "invest": "10",
     "ap": 1.222,

@@ -38,7 +38,7 @@
     {
       "name": "Strategy",
       "label": "strategy",
-      "value": "blsh",
+      "value": "blte",
       "hidden": "true",
       "type": "textarea",
       "validators": {}
@@ -63,14 +63,14 @@
     {
       "name": "$",
       "label": "Amount per trade",
-      "value": 100.0,
+      "value": 100,
       "type": "number",
       "validators": {}
-    },   
+    },
     {
       "name": "MaxBuyPrice",
       "label": "Max Buy Price",
-      "value": 0.000017,
+      "value": 0.000018,
       "type": "number",
       "validators": {}
     },
@@ -82,11 +82,20 @@
       "validators": {}
     },
     {
-      "name": "MinSellPrice",
-      "label": "Min Sell Price",
+      "name": "ExitPriceMultiple",
+      "label": "Exit Price Multiple",
+      "value": 5.2,
+      "type": "number",
+      "validators": {}
+    },
+    {
+      "name": "ExitPriceAbsolute",
+      "label": "Exit Price Absolute",
       "value": 0.000078,
       "type": "number",
       "validators": {}
     }
   ]
 }
+
+

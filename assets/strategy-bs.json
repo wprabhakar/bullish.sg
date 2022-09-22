@@ -38,7 +38,7 @@
     {
       "name": "Strategy",
       "label": "strategy",
-      "value": "blsh",
+      "value": "bs",
       "hidden": "true",
       "type": "textarea",
       "validators": {}
@@ -46,11 +46,11 @@
     {
       "name": "A",
       "label": "Asset",
-      "value": "SHIB",
+      "value": "ZIL",
       "type": "text",
       "validators": {
         "required": true,
-        "minLength": 10
+        "minLength": 2
       }
     },
     {
@@ -62,31 +62,39 @@
     },
     {
       "name": "$",
-      "label": "Amount per trade",
-      "value": 100.0,
-      "type": "number",
-      "validators": {}
-    },   
-    {
-      "name": "MaxBuyPrice",
-      "label": "Max Buy Price",
-      "value": 0.000017,
+      "label": "Initial$",
+      "value": 100,
       "type": "number",
       "validators": {}
     },
     {
-      "name": "AdditionalBuy",
-      "label": "Additional Buy",
+      "name": "StartPrice",
+      "label": "First Trade Price less than",
+      "value": 0.04,
+      "type": "number",
+      "validators": {}
+    },
+    {
+      "name": "UseCandleStick",
+      "label": "Buy - Red, Sell - Green",
+      "value": "true",
+      "type": "checkbox",
+      "validators": {}
+    },
+    {
+      "name": "PriceDn",
+      "label": "PriceDn",
       "value": 0.03,
       "type": "number",
       "validators": {}
     },
     {
-      "name": "MinSellPrice",
-      "label": "Min Sell Price",
-      "value": 0.000078,
+      "name": "PriceUp",
+      "label": "PriceUp",
+      "value": 0.03,
       "type": "number",
       "validators": {}
     }
   ]
 }
+

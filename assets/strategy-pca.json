@@ -24,6 +24,14 @@
       "validators": {}
     },
     {
+      "name": "Strategy",
+      "label": "strategy",
+      "value": "pca",
+      "hidden": "true",
+      "type": "textarea",
+      "validators": {}
+    },
+    {
       "name": "FREQ",
       "label": "Poll Frequency",
       "value": "5m",
@@ -34,14 +42,6 @@
       "options": {
         "5m": "5m"
       }
-    },
-    {
-      "name": "Strategy",
-      "label": "strategy",
-      "value": "blsh",
-      "hidden": "true",
-      "type": "textarea",
-      "validators": {}
     },
     {
       "name": "A",
@@ -61,30 +61,37 @@
       "validators": {}
     },
     {
-      "name": "$",
-      "label": "Amount per trade",
-      "value": 100.0,
-      "type": "number",
-      "validators": {}
-    },   
-    {
-      "name": "MaxBuyPrice",
-      "label": "Max Buy Price",
-      "value": 0.000017,
+      "name": "Initial$",
+      "label": "Initial$",
+      "value": 1032,
       "type": "number",
       "validators": {}
     },
     {
-      "name": "AdditionalBuy",
-      "label": "Additional Buy",
-      "value": 0.03,
+      "name": "StartPrice",
+      "label": "First Trade Price less than",
+      "value": 10.0,
       "type": "number",
       "validators": {}
     },
     {
-      "name": "MinSellPrice",
-      "label": "Min Sell Price",
-      "value": 0.000078,
+      "name": "Min$",
+      "label": "Min Trade$",
+      "value": 10.00,
+      "type": "number",
+      "validators": {}
+    },
+    {
+      "name": "BuyResistence",
+      "label": "BuyResistence",
+      "value": 0.8,
+      "type": "number",
+      "validators": {}
+    },
+    {
+      "name": "SellResistence",
+      "label": "SellResistence",
+      "value": 0.8,
       "type": "number",
       "validators": {}
     }

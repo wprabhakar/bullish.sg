@@ -24,6 +24,14 @@
       "validators": {}
     },
     {
+      "name": "Strategy",
+      "label": "strategy",
+      "value": "acc",
+      "hidden": "true",
+      "type": "textarea",
+      "validators": {}
+    },
+    {
       "name": "FREQ",
       "label": "Poll Frequency",
       "value": "5m",
@@ -34,14 +42,6 @@
       "options": {
         "5m": "5m"
       }
-    },
-    {
-      "name": "Strategy",
-      "label": "strategy",
-      "value": "blsh",
-      "hidden": "true",
-      "type": "textarea",
-      "validators": {}
     },
     {
       "name": "A",
@@ -63,14 +63,14 @@
     {
       "name": "$",
       "label": "Amount per trade",
-      "value": 100.0,
+      "value": 25,
       "type": "number",
       "validators": {}
-    },   
+    },
     {
       "name": "MaxBuyPrice",
       "label": "Max Buy Price",
-      "value": 0.000017,
+      "value": 0.00002,
       "type": "number",
       "validators": {}
     },
@@ -82,9 +82,23 @@
       "validators": {}
     },
     {
-      "name": "MinSellPrice",
-      "label": "Min Sell Price",
-      "value": 0.000078,
+      "name": "TakeProfit",
+      "label": "Profit Target",
+      "value": 0.05,
+      "type": "number",
+      "validators": {}
+    },
+    {
+      "name": "accummulateTarget",
+      "label": "Accummulate Target",
+      "value": 0.00001,
+      "type": "number",
+      "validators": {}
+    },
+    {
+      "name": "ExitPrice",
+      "label": "Exit Price - when acc target is met",
+      "value": 0.00008,
       "type": "number",
       "validators": {}
     }

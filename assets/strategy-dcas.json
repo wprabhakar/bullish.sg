@@ -24,6 +24,14 @@
       "validators": {}
     },
     {
+      "name": "Strategy",
+      "label": "strategy",
+      "value": "dcas",
+      "hidden": "true",
+      "type": "textarea",
+      "validators": {}
+    },
+    {
       "name": "FREQ",
       "label": "Poll Frequency",
       "value": "5m",
@@ -36,17 +44,9 @@
       }
     },
     {
-      "name": "Strategy",
-      "label": "strategy",
-      "value": "blsh",
-      "hidden": "true",
-      "type": "textarea",
-      "validators": {}
-    },
-    {
       "name": "A",
       "label": "Asset",
-      "value": "SHIB",
+      "value": "BTC",
       "type": "text",
       "validators": {
         "required": true,
@@ -63,30 +63,51 @@
     {
       "name": "$",
       "label": "Amount per trade",
-      "value": 100.0,
-      "type": "number",
-      "validators": {}
-    },   
-    {
-      "name": "MaxBuyPrice",
-      "label": "Max Buy Price",
-      "value": 0.000017,
+      "value": 10.0,
       "type": "number",
       "validators": {}
     },
     {
-      "name": "AdditionalBuy",
-      "label": "Additional Buy",
-      "value": 0.03,
+      "name": "NextSellPrice",
+      "label": "Next Sell @",
+      "value": 50000.0,
       "type": "number",
       "validators": {}
     },
     {
-      "name": "MinSellPrice",
-      "label": "Min Sell Price",
-      "value": 0.000078,
+      "name": "UseCandleStick",
+      "label": "Use Candle for Entry",
+      "value": "true",
+      "type": "checkbox",
+      "validators": {}
+    },
+    {
+      "name": "PriceUp",
+      "label": "Sell when Price Rises %",
+      "value": 0.05,
       "type": "number",
       "validators": {}
-    }
+    },
+    {
+      "name": "$Times",
+      "label": "Increase ($ * times) ",
+      "value": 1.02,
+      "type": "number",
+      "validators": {}
+    },
+    {
+      "name": "Profit",
+      "label": "Buy when Profit %",
+      "value": 0.05,
+      "type": "number",
+      "validators": {}
+    },
+    {
+      "name": "IndividualTransaction",
+      "label": "Exit at transaction level",
+      "value": "true",
+      "type": "checkbox",
+      "validators": {}
+    }    
   ]
 }
