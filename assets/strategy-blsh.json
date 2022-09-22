@@ -1,90 +1,144 @@
 {
   "controls": [
     {
-      "name": "Pause",
-      "label": "only close open positions",
-      "value": "false",
-      "type": "checkbox",
-      "validators": {}
-    },
-    {
-      "name": "Enabled",
-      "label": "Enabled",
-      "value": "true",
+      "name": "PARAMS.ENABLED",
+      "label": "ENABLED",
+      "value": true,
       "hidden": "true",
       "type": "checkbox",
       "validators": {}
     },
     {
-      "name": "Exchange",
-      "label": "exchange",
-      "value": "<unkown>",
-      "hidden": "true",
-      "type": "textarea",
-      "validators": {}
-    },
-    {
-      "name": "FREQ",
-      "label": "Poll Frequency",
-      "value": "5m",
-      "hidden": "true",
-      "type": "select",
-      "validators": {
-      },
-      "options": {
-        "5m": "5m"
-      }
-    },
-    {
-      "name": "Strategy",
-      "label": "strategy",
-      "value": "blsh",
-      "hidden": "true",
-      "type": "textarea",
-      "validators": {}
-    },
-    {
-      "name": "A",
+      "name": "PARAMS.A",
       "label": "Asset",
       "value": "SHIB",
       "type": "text",
+      "readonly": "true",
       "validators": {
         "required": true,
         "minLength": 10
       }
     },
     {
-      "name": "B",
+      "name": "PARAMS.B",
       "label": "Base",
       "value": "USDT",
       "type": "text",
+      "readonly": "true",
       "validators": {}
     },
     {
-      "name": "$",
-      "label": "Amount per trade",
+      "name": "PARAMS.TEST",
+      "label": "TEST",
+      "value": true,
+      "type": "checkbox",
+      "validators": {}
+    },
+    {
+      "name": "PARAMS.PAUSE",
+      "label": "Close Open Positions Only",
+      "value": false,
+      "type": "checkbox",
+      "validators": {}
+    },
+    {
+      "name": "PARAMS.EX",
+      "label": "EX",
+      "value": "<unkown>",
+      "hidden": "true",
+      "type": "textarea",
+      "validators": {}
+    },
+    {
+      "name": "PARAMS.SNAME",
+      "label": "Strategy",
+      "value": "blsh",
+      "hidden": "true",
+      "type": "textarea",
+      "validators": {}
+    },
+
+    {
+      "name": "PARAMS.INVEST$",
+      "label": "min qty in BASE units",
       "value": 100.0,
       "type": "number",
       "validators": {}
     },   
     {
-      "name": "MaxBuyPrice",
+      "name": "PARAMS.ORDER_PLACEMENT_TRESHOLD",
+      "label": "Order place treshold PCT",
+      "value": 0.01,
+      "type": "number",
+      "validators": {}
+    },
+    {
+      "name": "PARAMS.MAX_BUY_PRICE",
       "label": "Max Buy Price",
-      "value": 0.000017,
+      "value": 0.0000017,
       "type": "number",
       "validators": {}
     },
     {
-      "name": "AdditionalBuy",
-      "label": "Additional Buy",
-      "value": 0.03,
+      "name": "PARAMS.INC_INVEST_PCT",
+      "label": "Increase ($*(1+pct))",
+      "value": 0.05,
       "type": "number",
       "validators": {}
     },
     {
-      "name": "MinSellPrice",
-      "label": "Min Sell Price",
-      "value": 0.000078,
+      "name": "PARAMS.PERCENT_ON_BALANCE",
+      "label": "Balance*(percent)",
+      "value": 0.0,
+      "type": "number",
+      "validators": {}
+    },
+    {
+      "name": "PARAMS.INC_QTY_PCT",
+      "label": "Increase (q*(1+pct))",
+      "value": 0.10,
+      "type": "number",
+      "validators": {}
+    },
+    {
+      "name": "PARAMS.UP_PCT",
+      "label": "Up ($*(1+pct))",
+      "value": 0.05,
+      "type": "number",
+      "validators": {}
+    },
+    {
+      "name": "PARAMS.DN_PCT",
+      "label": "Dn ($/(1+pct))",
+      "value": 0.05,
+      "type": "number",
+      "validators": {}
+    },
+    {
+      "name": "PARAMS.BUY_EXPIRY_MINUTES",
+      "label": "Expire Buy (minutes)",
+      "value": 15,
+      "type": "number",
+      "validators": {}
+    },
+    {
+      "name": "PARAMS.CLOSE_ALL",
+      "label": "Close All",
+      "value": true,
+      "type": "checkbox",
+      "validators": {}
+    },
+    {
+      "name": "PARAMS.MIN_SELL_PRICE",
+      "label": "Closing Min Sell Price",
+      "value": 0.01,
+      "type": "number",
+      "validators": {}
+    },
+    {
+      "name": "PARAMS.SELL_EXPIRY_MINUTES",
+      "label": "Expire Sell (minutes)",
+      "value": 15,
       "type": "number",
       "validators": {}
     }

@@ -1,37 +1,17 @@
 {
-  "controls": [
-    {
-      "name": "Exchange",
-      "label": "Exchange",
-      "value": "kucoin",
-      "type": "select",
-      "validators": {
-      },
-      "options": {
-        "kucoin": "KuCoin",
-        "aax": "AAX",
-        "lbank": "Lbank"
+    "controls": [
+      {
+        "name": "Strategy",
+        "label": "Strategy",
+        "value": "blsh",
+        "type": "select",
+        "validators": {
+        },
+        "options": {
+          "blsh": "BuyLow SellHigh",
+          "shbl": "SellHigh BuyLow"
+        }
       }
-    },
-    {
-      "name": "Strategy",
-      "label": "Strategy",
-      "value": "dca",
-      "type": "select",
-      "validators": {
-      },
-      "options": {
-        "bs": "Buy Sell",
-        "sb": "Sell Buy",
-        "dca": "DCA - Keep Buying",
-        "dcas": "DCA - Keep Selling",
-        "pca": "PCA Strategy",
-        "acc": "ACC Trading",
-        "fib": "FIB Trading",
-        "blte": "BuyLow TargetExit",
-        "blsh": "BuyLow SellHigh",
-        "shbl": "SellHigh BuyLow"
-      }
-    }
-  ]
-}
+    ]
+  }
+  
