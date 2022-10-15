@@ -9,7 +9,9 @@
         },
         "options": {
           "blsh": "BuyLow SellHigh",
-          "shbl": "SellHigh BuyLow"
+          "shbl": "SellHigh BuyLow",
+          "rsibs": "RSI",
+          "habs": "Hieken Ashi"
         }
       }
     ]
