@@ -35,6 +35,13 @@
       "validators": {}
     },
     {
+      "name": "PARAMS.PAUSE",
+      "label": "Close Open Positions Only",
+      "value": false,
+      "type": "checkbox",
+      "validators": {}
+    },
+    {
       "name": "PARAMS.EX",
       "label": "EX",
       "value": "<unkown>",
