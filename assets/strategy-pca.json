@@ -28,6 +28,13 @@
       "validators": {}
     },
     {
+      "name": "PARAMS.TEST",
+      "label": "TEST",
+      "value": true,
+      "type": "checkbox",
+      "validators": {}
+    },
+    {
       "name": "PARAMS.EX",
       "label": "EX",
       "value": "<unkown>",
