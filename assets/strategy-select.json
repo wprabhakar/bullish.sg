@@ -11,7 +11,8 @@
           "blsh": "BuyLow SellHigh",
           "shbl": "SellHigh BuyLow",
           "rsibs": "RSI",
-          "habs": "Hieken Ashi"
+          "habs": "Hieken Ashi",
+          "pca": "PCA"
         }
       }
     ]

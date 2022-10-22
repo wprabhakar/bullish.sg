@@ -1,0 +1,130 @@
+{
+  "controls": [
+    {
+      "name": "PARAMS.ENABLED",
+      "label": "ENABLED",
+      "value": true,
+      "hidden": "true",
+      "type": "checkbox",
+      "validators": {}
+    },
+    {
+      "name": "PARAMS.A",
+      "label": "Asset",
+      "value": "SQUIDGROW",
+      "type": "text",
+      "readonly": "true",
+      "validators": {
+        "required": true,
+        "minLength": 1
+      }
+    },
+    {
+      "name": "PARAMS.B",
+      "label": "Base",
+      "value": "USDT",
+      "type": "text",
+      "readonly": "true",
+      "validators": {}
+    },
+    {
+      "name": "PARAMS.EX",
+      "label": "EX",
+      "value": "<unkown>",
+      "hidden": "true",
+      "type": "textarea",
+      "validators": {}
+    },
+    {
+      "name": "PARAMS.SNAME",
+      "label": "Strategy",
+      "value": "pca",
+      "hidden": "true",
+      "type": "textarea",
+      "validators": {}
+    },
+    {
+      "name": "PARAMS.INVEST$",
+      "label": "min BASE units",
+      "value": 11.0,
+      "type": "number",
+      "validators": {}
+    },
+    {
+      "name": "PARAMS.UP_PCT",
+      "label": "Up ($*(1+pct))",
+      "value": 0.05,
+      "type": "number",
+      "validators": {}
+    },
+    {
+      "name": "PARAMS.DN_PCT",
+      "label": "Dn ($/(1+pct))",
+      "value": 0.05,
+      "type": "number",
+      "validators": {}
+    },
+    {
+      "name": "PARAMS.MIN_QTY_PCT",
+      "label": "MinQtyPct => Q*(PCT)",
+      "value": 0.05,
+      "type": "number",
+      "validators": {}
+    },
+    {
+      "name": "PARAMS.QTY",
+      "label": "QTY",
+      "value": "0.0",
+      "type": "text",
+      "readonly": "true",
+      "validators": {}
+    },
+    {
+      "name": "PARAMS.CP",
+      "label": "CP",
+      "value": "0.0",
+      "type": "text",
+      "readonly": "true",
+      "validators": {}
+    },
+    {
+      "name": "PARAMS.PV",
+      "label": "PV",
+      "value": 0.0,
+      "readonly": "true",
+      "type": "checkbox",
+      "validators": {}
+    },
+    {
+      "name": "PARAMS.BALANCE",
+      "label": "Balance",
+      "value": 0.0,
+      "type": "number",
+      "validators": {}
+    },
+    {
+      "name": "PARAMS.PC",
+      "label": "PC",
+      "value": 0.0,
+      "readonly": "true",
+      "type": "checkbox",
+      "validators": {}
+    },
+    {
+      "name": "PARAMS.SELL_EXPIRY_MINUTES",
+      "label": "Expire Sell (minutes)",
+      "value": 150,
+      "hidden": true,
+      "type": "number",
+      "validators": {}
+    },
+    {
+      "name": "PARAMS.BUY_EXPIRY_MINUTES",
+      "label": "Expire Buy (minutes)",
+      "value": 150,
+      "hidden": true,
+      "type": "number",
+      "validators": {}
+    }
+  ]
+}
