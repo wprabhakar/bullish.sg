@@ -1,0 +1,21 @@
+{
+  "controls": [
+    {
+      "name": "email",
+      "label": "Email",
+      "value": "",
+      "type": "text",
+      "validators": {
+        "required": true,
+        "minLength": 30
+      }
+    },
+    {
+      "name": "password",
+      "label": "Password",
+      "value": "",
+      "type": "text",
+      "validators": {}
+    }
+  ]
+}

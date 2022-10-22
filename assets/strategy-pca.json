@@ -44,22 +44,15 @@
       "validators": {}
     },
     {
-      "name": "PARAMS.INVEST$",
-      "label": "min BASE units",
-      "value": 11.0,
-      "type": "number",
-      "validators": {}
-    },
-    {
       "name": "PARAMS.UP_PCT",
-      "label": "Up ($*(1+pct))",
+      "label": "Sell SAFE",
       "value": 0.05,
       "type": "number",
       "validators": {}
     },
     {
       "name": "PARAMS.DN_PCT",
-      "label": "Dn ($/(1+pct))",
+      "label": "Buy SAFE",
       "value": 0.05,
       "type": "number",
       "validators": {}
@@ -73,7 +66,7 @@
     },
     {
       "name": "PARAMS.QTY",
-      "label": "QTY",
+      "label": "Strategy Qty",
       "value": "0.0",
       "type": "text",
       "readonly": "true",
@@ -81,33 +74,33 @@
     },
     {
       "name": "PARAMS.CP",
-      "label": "CP",
-      "value": "0.0",
-      "type": "text",
-      "readonly": "true",
-      "validators": {}
-    },
-    {
-      "name": "PARAMS.PV",
-      "label": "PV",
+      "label": "Current Price",
       "value": 0.0,
+      "type": "number",
       "readonly": "true",
-      "type": "checkbox",
       "validators": {}
     },
     {
       "name": "PARAMS.BALANCE",
-      "label": "Balance",
+      "label": "Strategy Balance",
       "value": 0.0,
       "type": "number",
       "validators": {}
     },
     {
-      "name": "PARAMS.PC",
-      "label": "PC",
+      "name": "PARAMS.PV",
+      "label": "Portfolio Value",
       "value": 0.0,
       "readonly": "true",
-      "type": "checkbox",
+      "type": "number",
+      "validators": {}
+    },
+    {
+      "name": "PARAMS.PC",
+      "label": "Portfolio Control",
+      "value": 0.0,
+      "readonly": "true",
+      "type": "number",
       "validators": {}
     },
     {
