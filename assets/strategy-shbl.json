@@ -66,16 +66,16 @@
       "validators": {}
     },   
     {
-      "name": "PARAMS.MIN_SELL_PRICE",
-      "label": "Min Sell Price",
+      "name": "PARAMS.ORDER_PLACEMENT_TRESHOLD",
+      "label": "Place Order PCT to Price",
       "value": 0.01,
       "type": "number",
       "validators": {}
     },
     {
-      "name": "PARAMS.SELL_EXPIRY_MINUTES",
-      "label": "Expire Sell (minutes)",
-      "value": 15,
+      "name": "PARAMS.MIN_SELL_PRICE",
+      "label": "Min Sell Price",
+      "value": 0.01,
       "type": "number",
       "validators": {}
     },
@@ -115,13 +115,6 @@
       "validators": {}
     },
     {
-      "name": "PARAMS.ORDER_PLACEMENT_TRESHOLD",
-      "label": "Place Order PCT to Price",
-      "value": 0.01,
-      "type": "number",
-      "validators": {}
-    },
-    {
       "name": "PARAMS.CLOSE_ALL",
       "label": "Close All",
       "value": true,
@@ -131,7 +124,14 @@
     {
       "name": "PARAMS.MAX_BUY_PRICE",
       "label": "Closing Max Buy Price",
-      "value": 0.0000017,
+      "value": 0.00000017,
+      "type": "number",
+      "validators": {}
+    },
+    {
+      "name": "PARAMS.SELL_EXPIRY_MINUTES",
+      "label": "Expire Sell (minutes)",
+      "value": 15,
       "type": "number",
       "validators": {}
     },

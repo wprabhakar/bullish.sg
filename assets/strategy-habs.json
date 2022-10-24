@@ -98,6 +98,7 @@
       "label": "Expire Buy (minutes)",
       "value": 10,
       "type": "number",
+      "hidden": "true",
       "validators": {}
     },
     {
@@ -105,6 +106,7 @@
       "label": "Expire Sell (minutes)",
       "value": 10,
       "type": "number",
+      "hidden": "true",
       "validators": {}
     }
   ]

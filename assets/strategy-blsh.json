@@ -115,13 +115,6 @@
       "validators": {}
     },
     {
-      "name": "PARAMS.BUY_EXPIRY_MINUTES",
-      "label": "Expire Buy (minutes)",
-      "value": 15,
-      "type": "number",
-      "validators": {}
-    },
-    {
       "name": "PARAMS.CLOSE_ALL",
       "label": "Close All",
       "value": true,
@@ -132,6 +125,13 @@
       "name": "PARAMS.MIN_SELL_PRICE",
       "label": "Closing Min Sell Price",
       "value": 0.01,
+      "type": "number",
+      "validators": {}
+    },
+    {
+      "name": "PARAMS.BUY_EXPIRY_MINUTES",
+      "label": "Expire Buy (minutes)",
+      "value": 15,
       "type": "number",
       "validators": {}
     },
