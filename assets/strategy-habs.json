@@ -42,6 +42,20 @@
       "validators": {}
     },
     {
+      "name": "PARAMS.BUY_ENABLED",
+      "label": "Buy Enabled",
+      "value": true,
+      "type": "checkbox",
+      "validators": {}
+    },
+    {
+      "name": "PARAMS.SELL_ENABLED",
+      "label": "Sell Enabled",
+      "value": true,
+      "type": "checkbox",
+      "validators": {}
+    },
+    {
       "name": "PARAMS.EX",
       "label": "EX",
       "value": "<unkown>",

@@ -72,6 +72,13 @@
       "validators": {}
     },
     {
+      "name": "PARAMS.BALANCE",
+      "label": "Strategy Balance",
+      "value": 0.0,
+      "type": "number",
+      "validators": {}
+    },
+    {
       "name": "PARAMS.QTY",
       "label": "Strategy Qty",
       "value": "0.0",
@@ -81,31 +88,24 @@
     },
     {
       "name": "PARAMS.CP",
-      "label": "Current Price",
-      "value": 0.0,
-      "type": "number",
+      "label": "*Current Price",
+      "value": "0",
+      "type": "text",
       "readonly": "true",
-      "validators": {}
-    },
-    {
-      "name": "PARAMS.BALANCE",
-      "label": "Strategy Balance",
-      "value": 0.0,
-      "type": "number",
       "validators": {}
     },
     {
       "name": "PARAMS.PV",
-      "label": "Portfolio Value",
-      "value": 0.0,
+      "label": "*Portfolio Value",
+      "value": "0",
       "readonly": "true",
-      "type": "number",
+      "type": "text",
       "validators": {}
     },
     {
       "name": "PARAMS.PC",
-      "label": "Portfolio Control",
-      "value": 0.0,
+      "label": "*Portfolio Control",
+      "value": 0,
       "readonly": "true",
       "type": "number",
       "validators": {}
@@ -113,7 +113,7 @@
     {
       "name": "PARAMS.SELL_EXPIRY_MINUTES",
       "label": "Expire Sell (minutes)",
-      "value": 150,
+      "value": 1500,
       "hidden": true,
       "type": "number",
       "validators": {}
@@ -121,7 +121,7 @@
     {
       "name": "PARAMS.BUY_EXPIRY_MINUTES",
       "label": "Expire Buy (minutes)",
-      "value": 150,
+      "value": 1500,
       "hidden": true,
       "type": "number",
       "validators": {}
