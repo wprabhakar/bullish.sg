@@ -12,7 +12,8 @@
           "shbl": "SellHigh BuyLow",
           "rsibs": "RSI",
           "habs": "Hieken Ashi",
-          "pca": "PCA"
+          "pca": "PCA",
+          "pca_price": "PCA Price"
         }
       }
     ]

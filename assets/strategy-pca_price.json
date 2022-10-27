@@ -1,0 +1,130 @@
+{
+  "controls": [
+    {
+      "name": "PARAMS.ENABLED",
+      "label": "ENABLED",
+      "value": true,
+      "hidden": "true",
+      "type": "checkbox",
+      "validators": {}
+    },
+    {
+      "name": "PARAMS.A",
+      "label": "Asset",
+      "value": "SHIB",
+      "type": "text",
+      "readonly": "true",
+      "validators": {
+        "required": true,
+        "minLength": 1
+      }
+    },
+    {
+      "name": "PARAMS.B",
+      "label": "Base",
+      "value": "USDT",
+      "type": "text",
+      "readonly": "true",
+      "validators": {}
+    },
+    {
+      "name": "PARAMS.TEST",
+      "label": "TEST",
+      "value": true,
+      "type": "checkbox",
+      "validators": {}
+    },
+    {
+      "name": "PARAMS.EX",
+      "label": "EX",
+      "value": "<unkown>",
+      "hidden": "true",
+      "type": "textarea",
+      "validators": {}
+    },
+    {
+      "name": "PARAMS.SNAME",
+      "label": "Strategy",
+      "value": "pca_price",
+      "hidden": "true",
+      "type": "textarea",
+      "validators": {}
+    },
+    {
+      "name": "PARAMS.UP_PCT",
+      "label": "Sell SAFE",
+      "value": 0.02,
+      "type": "number",
+      "validators": {}
+    },
+    {
+      "name": "PARAMS.DN_PCT",
+      "label": "Buy SAFE",
+      "value": 0.02,
+      "type": "number",
+      "validators": {}
+    },
+    {
+      "name": "PARAMS.MIN_BASE_QTY",
+      "label": "Min Base Qty",
+      "value": 12,
+      "type": "number",
+      "validators": {}
+    },
+    {
+      "name": "PARAMS.BALANCE",
+      "label": "Strategy Balance",
+      "value": 0.0,
+      "type": "number",
+      "validators": {}
+    },
+    {
+      "name": "PARAMS.QTY",
+      "label": "Strategy Qty",
+      "value": "0.0",
+      "type": "text",
+      "readonly": "true",
+      "validators": {}
+    },
+    {
+      "name": "PARAMS.CP",
+      "label": "*Current Price",
+      "value": "0",
+      "type": "text",
+      "readonly": "true",
+      "validators": {}
+    },
+    {
+      "name": "PARAMS.PV",
+      "label": "*Portfolio Value",
+      "value": "0",
+      "readonly": "true",
+      "type": "text",
+      "validators": {}
+    },
+    {
+      "name": "PARAMS.PC",
+      "label": "*Portfolio Control",
+      "value": 0,
+      "readonly": "true",
+      "type": "number",
+      "validators": {}
+    },
+    {
+      "name": "PARAMS.SELL_EXPIRY_MINUTES",
+      "label": "Expire Sell (minutes)",
+      "value": 1500,
+      "hidden": true,
+      "type": "text",
+      "validators": {}
+    },
+    {
+      "name": "PARAMS.BUY_EXPIRY_MINUTES",
+      "label": "Expire Buy (minutes)",
+      "value": 1500,
+      "hidden": true,
+      "type": "text",
+      "validators": {}
+    }
+  ]
+}
