@@ -65,10 +65,25 @@
       "validators": {}
     },
     {
-      "name": "PARAMS.MIN_BASE_QTY",
-      "label": "Min Base Qty",
+      "name": "PARAMS.BUY_MIN_BASE_AMT",
+      "label": "Min Buy Base Amt",
       "value": 12,
       "type": "number",
+      "validators": {}
+    },
+    {
+      "name": "PARAMS.SELL_MIN_BASE_AMT",
+      "label": "Min Sell Base Amt",
+      "value": 12,
+      "type": "number",
+      "validators": {}
+    },
+    {
+      "name": "PARAMS.USE_CURRENT_PRICE",
+      "label": "Use Current Price",
+      "value": true,
+      "hidden": "true",
+      "type": "checkbox",
       "validators": {}
     },
     {
@@ -97,9 +112,9 @@
     {
       "name": "PARAMS.PV",
       "label": "*Portfolio Value",
-      "value": "0",
+      "value": 0,
       "readonly": "true",
-      "type": "text",
+      "type": "number",
       "validators": {}
     },
     {
