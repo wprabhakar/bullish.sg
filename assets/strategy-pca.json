@@ -11,7 +11,7 @@
     {
       "name": "PARAMS.A",
       "label": "Asset",
-      "value": "SQUIDGROW",
+      "value": "SHIB",
       "type": "text",
       "readonly": "true",
       "validators": {
@@ -53,21 +53,42 @@
     {
       "name": "PARAMS.UP_PCT",
       "label": "Sell SAFE",
-      "value": 0.05,
+      "value": 0.02,
       "type": "number",
       "validators": {}
     },
     {
       "name": "PARAMS.DN_PCT",
       "label": "Buy SAFE",
-      "value": 0.05,
+      "value": 0.02,
       "type": "number",
       "validators": {}
     },
     {
-      "name": "PARAMS.MIN_QTY_PCT",
-      "label": "MinQtyPct => Q*(PCT)",
-      "value": 0.05,
+      "name": "PARAMS.BUY_MIN_BASE_AMT",
+      "label": "Min Buy Base Amt",
+      "value": 12,
+      "type": "number",
+      "validators": {}
+    },
+    {
+      "name": "PARAMS.SELL_MIN_BASE_AMT",
+      "label": "Min Sell Base Amt",
+      "value": 12,
+      "type": "number",
+      "validators": {}
+    },
+    {
+      "name": "PARAMS.USE_CURRENT_PRICE",
+      "label": "Use Current Price",
+      "value": true,
+      "type": "checkbox",
+      "validators": {}
+    },
+    {
+      "name": "PARAMS.ALLOCATED_AMT",
+      "label": "*Allocated Amt",
+      "value": 0.0,
       "type": "number",
       "validators": {}
     },
@@ -97,9 +118,9 @@
     {
       "name": "PARAMS.PV",
       "label": "*Portfolio Value",
-      "value": "0",
+      "value": 0,
       "readonly": "true",
-      "type": "text",
+      "type": "number",
       "validators": {}
     },
     {
