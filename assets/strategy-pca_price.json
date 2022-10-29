@@ -82,7 +82,6 @@
       "name": "PARAMS.USE_CURRENT_PRICE",
       "label": "Use Current Price",
       "value": true,
-      "hidden": "true",
       "type": "checkbox",
       "validators": {}
     },
