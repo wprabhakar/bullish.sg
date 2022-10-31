@@ -86,13 +86,6 @@
       "validators": {}
     },
     {
-      "name": "PARAMS.ALLOCATED_AMT",
-      "label": "*Allocated Amt",
-      "value": 0.0,
-      "type": "number",
-      "validators": {}
-    },
-    {
       "name": "PARAMS.BALANCE",
       "label": "Strategy Balance",
       "value": 0.0,
@@ -105,6 +98,27 @@
       "value": "0.0",
       "type": "text",
       "readonly": "true",
+      "validators": {}
+    },
+    {
+      "name": "PARAMS.INITIAL_PRICE",
+      "label": "*Inital Price",
+      "value": 0.0,
+      "type": "number",
+      "validators": {}
+    },
+    {
+      "name": "PARAMS.INITIAL_QTY",
+      "label": "*Initial Qty",
+      "value": 0.0,
+      "type": "number",
+      "validators": {}
+    },
+    {
+      "name": "PARAMS.ALLOCATED_AMT",
+      "label": "*Allocated Amt",
+      "value": 0.0,
+      "type": "number",
       "validators": {}
     },
     {
